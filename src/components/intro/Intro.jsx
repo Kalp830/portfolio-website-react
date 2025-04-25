@@ -15,11 +15,13 @@ const Intro = () => {
             Designer
           </span>
           <p className="introPara">
-            I am a skilled web designer with experience in creating visual
+            I am a skilled web designer with experience in creating visually{" "}
+            <br />
+            appealing and user friendly websites.
           </p>
           <Link>
             <button className="btn">
-              <img src={btnImg} alt="" />
+              <img src={btnImg} alt="Hire" className="btnImg" />
               Hire Me
             </button>
           </Link>

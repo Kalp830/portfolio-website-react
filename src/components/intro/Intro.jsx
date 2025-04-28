@@ -3,6 +3,7 @@ import bg from "../../assets/images/image.png";
 import "./intro.css";
 import { Link } from "react-scroll";
 import btnImg from "../../assets/images/hireme.png";
+import Skills from "../skills/Skills";
 
 const Intro = () => {
   return (

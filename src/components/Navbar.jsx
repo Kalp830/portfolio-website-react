@@ -9,7 +9,9 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <>
+    
       <nav className="navbar">
+        <div className="container-fluid">
         <img className="logo" src={logo} alt="logo" />
         <div className="deskTopMenu">
           <Link
@@ -137,6 +139,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
+        </div>
         </div>
       </nav>
     </>

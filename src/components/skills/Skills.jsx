@@ -10,10 +10,12 @@ const Skills = () => {
       <section id="skills">
         <span className="skillTitle">What I do</span>
         <span className="skillDes">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolorem,
-          voluptatem culpa quia aperiam dicta consectetur voluptatibus iste
-          porro nisi placeat numquam quisquam, velit illo distinctio facere
-          dignissimos ex nam.
+        As a UI UX and Frontend Developer, I have extensive experience in
+creating modern web applications and user interfaces. My expertise
+includes React.js, JavaScript, and CSS frameworks, ensuring responsive
+and visually appealing designs. With a solid foundation in UI/UX principles
+and a commitment to quality, I thrive in collaborative environments and am
+driven to produce innovative solutions that enhance user experiences
         </span>
         <div className="skillBars">
           <div className="skillBar">

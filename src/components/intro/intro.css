@@ -1,5 +1,5 @@
 #intro {
-  height: calc(100vh - 130px);
+  height: calc(100vh - 150px);
   width: 100%;
   max-width: 75rem;
   margin: 0 auto;
@@ -45,6 +45,22 @@
   margin: 0 0.25rem;
   height: 1rem;
 }
+
+.header__profile-image-container{
+    align-items: center;
+    background: linear-gradient(#52527b, #0000);
+    border-radius: 12rem 12rem 0 0;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    margin-top: 3rem;
+    overflow: hidden;
+    position: absolute;
+    transform: translateX(-50%);
+    border:3px solid #2c2c4c;
+    box-shadow: 0 0px 19px #9c9cff;
+}
+
 @media screen and (max-width: 840px) {
   .bg {
     right: -10vw;

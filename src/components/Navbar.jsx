@@ -11,9 +11,9 @@ const Navbar = () => {
     <>
     
       <nav className="navbar">
-        <div className="container-fluid">
-        <img className="logo" src={logo} alt="logo" />
-        <div className="deskTopMenu">
+        <div className="container justify-content-center">
+        
+        <div className="deskTopMenu ">
           <Link
             to="intro"
             spy={true}
@@ -27,7 +27,7 @@ const Navbar = () => {
           </Link>
           <Link
             className="deskTopMenuItemList"
-            to="skills"
+            to="about"
             spy={true}
             smooth={true}
             activeClass="active"
@@ -59,17 +59,7 @@ const Navbar = () => {
             Clients
           </Link>
         </div>
-        <button
-          className="desTopMenuButton"
-          onClick={() => {
-            document
-              .getElementById("contact")
-              .scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          <img src={contactImg} alt="" className="desktopMenuImg" /> Contact Me
-        </button>
-        <img
+               <img
           className="mobMenu"
           src={menu}
           alt="menu"

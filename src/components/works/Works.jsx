@@ -10,6 +10,7 @@ import Portfolio6 from "../../assets/images/portfolio-6.png";
 const Works = () => {
   return (
     <section id="works">
+      <h6>What Skills I Have</h6>
       <h2 className="worksTitle">My Portfolio</h2>
       <div className="worksDes">
         <p>

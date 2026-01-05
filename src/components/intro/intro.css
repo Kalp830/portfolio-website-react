@@ -1,5 +1,5 @@
 #intro {
-  height: calc(100vh - 150px);
+  height: calc(100vh - 177px);
   width: 100%;
   max-width: 75rem;
   margin: 0 auto;
@@ -28,7 +28,7 @@
   font-weight: 100;
 }
 .introName {
-  color: yellow;
+  color: #4db5ff;
 }
 .introPara {
   font-size: medium;

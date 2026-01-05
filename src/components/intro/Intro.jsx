@@ -22,9 +22,9 @@ const Intro = () => {
 I'm a UI/UX and Frontend Developer and I build for the Universe.
                   </p>
                 </div>
-                <div className="downloadBtn d-flex justify-content-center m-auto col-md-6">
+                <div className="downloadBtn d-flex justify-content-between m-auto col-md-4">
                   <a href={Pdf} download className="btn btn-lg btn-outline-secondary mr-5">Download CV</a>
-                  <a href="" download className="btn btn-lg btn-outline-secondary ml-3">Linkedin Profile</a>
+                  <a href="https://www.linkedin.com/in/kalpesh-talekar-05533794/" target="_blank" className="btn btn-lg btn-outline-secondary ml-3">Linkedin Profile</a>
 
                 </div>
                 <div className="header__profile-image-container clearfix">

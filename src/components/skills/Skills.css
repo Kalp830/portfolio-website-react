@@ -8,11 +8,15 @@
   text-align: center;
   margin: 0 auto;
 }
+#skills h6{
+  color: #fff9;
+}
 .skillTitle {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
-  padding-top: 1rem;
   margin-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #4db5ff;
 }
 .skillDes {
   font-size: 400;
@@ -20,10 +24,10 @@
   max-width: 50rem;
   padding: 0 2rem;
   margin: 0 auto 2rem auto;
+  color: #fff9;
 }
 .skillBars {
-  width: 100vw;
-  max-width: 70%;
+  
   text-align: left;
   margin: auto;
 }
@@ -44,3 +48,4 @@
   font-size: 0.75rem;
   font-weight: 200;
 }
+

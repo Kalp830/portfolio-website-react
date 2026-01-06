@@ -27,10 +27,10 @@ I'm a UI/UX and Frontend Developer and I build for the Universe.
                   <a href="https://www.linkedin.com/in/kalpesh-talekar-05533794/" target="_blank" className="btn btn-lg btn-outline-secondary ml-3">Linkedin Profile</a>
 
                 </div>
-                <div className="header__profile-image-container clearfix">
+                {/* <div className="header__profile-image-container clearfix">
                   <img src={ProfileImg} alt="profile" className="img-fluid" width="250" />
                   
-                </div>
+                </div> */}
                
               </div>
               

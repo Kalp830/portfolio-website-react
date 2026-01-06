@@ -1,41 +1,70 @@
 import React from "react";
 import "./skills.css";
-import UiDesign from "../../assets/images/ui-design.png";
-import WebDesign from "../../assets/images/website-design.png";
-import AppDesign from "../../assets/images/app-design.png";
-import { Navbar, Nav, Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, CardTitle } from 'react-bootstrap';
+import { CheckCircleFill } from "react-bootstrap-icons";
 
 const Skills = () => {
+  const skillsData = [
+    {
+    title:"Design, Development & Integration",
+    items:[
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "NextJS",
+      "Tailwind",
+      "Figma",
+      "Photoshop",
+      "XD",
+      "Illustrator",
+    ]
+    },
+    {
+    title: "Soft Skills",
+    items: [
+      "Teamwork",
+      "Problem Solving",
+      "Creativity",
+      "Time Management",
+      "Self-Learner",
+      "Flexibility",
+    ]
+  },
+  ];
   return (
-    <>
-      <section id="skills">
-        <h6 className="mb-0">Get to Know</h6>
-        <span className="skillTitle">About Me</span>
+    <section id="works">
+      <h6>What Skills I Have</h6>
+      <h2 className="worksTitle">My Experience In</h2>
+      <div className="worksDes">
+        <p>
+          I take pride in paying attention to the smallest details and making
+          sure that my work is pixel perfect. I am excited to bring my skills
+          and experience to help business achieve their goals and create a
+          strong online presence.
+        </p>
        
-        <Container>
-          <Row>
-            <Col lg={5}>
-           <img src={WebDesign} alt="my image"></img>
-            </Col>
-            <Col lg={7}>
-            <span className="skillDes text-start">
-       <p> As a UI UX and Frontend Developer, I have extensive experience in
-creating modern web applications and user interfaces. My expertise
-includes React.js, JavaScript, and CSS frameworks, ensuring responsive
-and visually appealing designs. With a solid foundation in UI/UX principles
-and a commitment to quality, I thrive in collaborative environments and am
-                  driven to produce innovative solutions that enhance user experiences.</p>
-                <p>I am committed to continuous learning and strive to become a top-tier developer in the tech industry.</p>
-        </span>
-            </Col>
-            
-            </Row>
-          </Container>
-        
-      </section>
-
-       
-    </>
+          <Row className="g-4">
+            {skillsData.map((item, index)=>(
+              <Col lg={6} key={index}>
+               <div className="skills-card">
+                 <h4 className="skills-title">{item.title}</h4>
+              <Row>
+                {item.items.map((skill, index)=>(
+                      <Col xs={12} md={6} key={index} className="mb-3">
+                        <div className="skill-item">
+                           <CheckCircleFill  className="skill-icon"/>
+                           <span>{skill}</span>
+                        </div>
+                      </Col>
+                ))}
+              </Row>
+               </div>
+              </Col>
+            ))}
+          </Row>
+      </div>
+      <button className="workBtn">See More</button>
+    </section>
   );
 };
 

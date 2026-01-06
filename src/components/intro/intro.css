@@ -1,5 +1,5 @@
 #intro {
-  height: calc(100vh - 177px);
+
   width: 100%;
   max-width: 75rem;
   margin: 0 auto;
@@ -13,7 +13,6 @@
   height: 100vh;
 }
 .introContent {
-  height: 100vh;
   /* width: 100vw; */
   padding: 2rem;
   font-size: 3rem;
@@ -71,4 +70,7 @@
   .hello {
     font-size: 4.5rem;
   }
+}
+.downloadBtn a:hover{
+ background: #4db5ff;
 }

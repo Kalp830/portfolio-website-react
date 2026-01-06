@@ -1,0 +1,76 @@
+#skills {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem auto 0 auto;
+}
+#skills h6{
+  color: #fff9;
+}
+.skillTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #4db5ff;
+}
+.skillDes {
+  font-size: 400;
+  font-size: 1rem;
+  max-width: 50rem;
+  color: #fff9;
+}
+.skillBars {
+  
+  text-align: left;
+  margin: auto;
+}
+.skillBar {
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+.skillBarImg {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 2rem;
+}
+.skillBarText p {
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+.img-container{
+    margin: 0 auto;
+    width: 74%;
+    display: grid;
+    grid-template-columns: 88% 0%;
+}
+.about_me{
+  aspect-ratio: 1 / 1;
+    background: linear-gradient(45deg, #0000, #4db5ff);
+    border-radius: 2rem;
+    display: grid;
+    place-items:inherit;
+    width: 100%;
+}
+.about_me-image{
+  border: 3px solid #4db5ff;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 400ms ease;
+}
+
+.about_me-image:hover {
+    transform: rotate(0);
+}
+.bg-primary{
+  background-color: #4db5ff;
+}

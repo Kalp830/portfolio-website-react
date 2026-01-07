@@ -1,22 +1,28 @@
 import React from "react";
 import "./skills.css";
-import { Container, Row, Col, Button, CardTitle } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { CheckCircleFill } from "react-bootstrap-icons";
 
 const Skills = () => {
   const skillsData = [
     {
-    title:"Design, Development & Integration",
+    title:"Design & Development",
     items:[
+      "HTML",
+      "CSS3",
+      "SaSS",
+      "Bootstrap",
+      "React Bootstrap",
+      "Material UI",
       "JavaScript",
       "TypeScript",
       "ReactJS",
-      "NextJS",
       "Tailwind",
       "Figma",
       "Photoshop",
       "XD",
       "Illustrator",
+      "Responsive Design"
     ]
     },
     {
@@ -28,13 +34,15 @@ const Skills = () => {
       "Time Management",
       "Self-Learner",
       "Flexibility",
+      "Pixel Perfect Design",
     ]
   },
   ];
   return (
     <section id="works">
+      <Container>
       <h6>What Skills I Have</h6>
-      <h2 className="worksTitle">My Experience In</h2>
+      <h2 className="worksTitle">My Experience</h2>
       <div className="worksDes">
         <p>
           I take pride in paying attention to the smallest details and making
@@ -63,7 +71,7 @@ const Skills = () => {
             ))}
           </Row>
       </div>
-      <button className="workBtn">See More</button>
+      </Container>
     </section>
   );
 };

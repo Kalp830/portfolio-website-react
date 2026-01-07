@@ -1,14 +1,14 @@
-#skills {
+.skills {
   overflow: hidden;
   width: 100vw;
-  max-width: 65rem;
+  /* max-width: 65rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin: 3rem auto 0 auto;
 }
-#skills h6{
+.skills h6{
   color: #fff9;
 }
 .skillTitle {
@@ -47,8 +47,8 @@
   font-weight: 200;
 }
 .img-container{
-    margin: 0 auto;
-    width: 74%;
+
+    width: 84%;
     display: grid;
     grid-template-columns: 88% 0%;
 }

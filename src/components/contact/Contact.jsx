@@ -26,7 +26,8 @@ const Contact = () => {
   return (
     <section className="contactPage">
       <div className="clients">
-        <h1 className="contactPageTitle">My Clients</h1>
+        <h6>My contact</h6>
+        <h2 className="contactPageTitle">My Contact</h2>
         <p className="clientDes">
           I had the opportunity to work with a diverse group of companies. Some
           of the notable compamies I have worked with includes.

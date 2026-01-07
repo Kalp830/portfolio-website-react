@@ -6,7 +6,7 @@ import { Container, Row, Col, } from 'react-bootstrap';
 const About = () => {
   return (
     <>
-      <section id="skills">
+      <section id="about" className="skills">
         <h6 className="mb-0">Get to Know</h6>
         <span className="skillTitle">About Me</span>
        

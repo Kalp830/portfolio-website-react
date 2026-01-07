@@ -1,0 +1,65 @@
+#portfolio{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#portfolio h6{
+     color: #fff9;
+}
+.portfolioPageTitle{
+      margin-bottom: 1rem;
+     color: #4db5ff;
+}
+.bg-card{
+    background: #2a2d63;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 400ms ease;
+    border: 1px solid #0000;
+}
+.bg-card:hover{
+     background-color: #0000;
+     border-color: #4db5ff;
+}
+.bg-card img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+.link-btn {
+     background-color: #4db5ff;
+     padding: 1rem;
+     border-radius: 5px;
+      text-decoration: none;
+     color: #fff;
+}
+.portlink-btn{
+  margin: 2rem 0 1rem 0;
+  text-align: start;
+}
+.link-btn:hover {
+     background: #fff;
+     color: #4db5ff;
+}
+
+.card-content h3{
+   display: flex;
+   justify-content: start;
+   font-size: 1.2rem;
+   font-family: "Poppins", sans-serif;
+   padding: 1rem 0 0 0;
+}
+.card-content h6{
+   display: flex;
+   justify-content: start;
+   font-size: 1rem;
+   font-family: "Poppins", sans-serif;
+   font-weight: normal;
+
+}
+

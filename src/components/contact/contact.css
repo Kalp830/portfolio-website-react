@@ -10,8 +10,8 @@
 }
 
 .contactPageTitle {
-  font-size: 3rem;
   margin-bottom: 1rem;
+  color: #4db5ff;
 }
 .clientDes {
   font-weight: 300;
@@ -31,6 +31,9 @@
 }
 .clients {
   padding: 2rem;
+}
+.clients h6{
+   color: #fff9;
 }
 .contactDes {
   padding: 1rem;

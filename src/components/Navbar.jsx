@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./navbar.css";
-import logo from "../assets/images/logo.png";
-import contactImg from "../assets/images/contact.png";
 import { Link } from "react-scroll";
 import menu from "../assets/images/menu.png";
 
@@ -36,7 +34,7 @@ const Navbar = () => {
           >
             About
           </Link>
-          <Link
+           <Link
             to="works"
             className="deskTopMenuItemList"
             spy={true}
@@ -45,18 +43,18 @@ const Navbar = () => {
             offset={-150}
             duration={500}
           >
-            Portfolio
+            Skills
           </Link>
           <Link
-            to="clients"
+            to="portfolio"
             className="deskTopMenuItemList"
             spy={true}
             smooth={true}
             activeClass="active"
-            offset={-200}
+            offset={-150}
             duration={500}
           >
-            Clients
+            Portfolio
           </Link>
         </div>
                <img
@@ -94,7 +92,19 @@ const Navbar = () => {
             About
           </Link>
           <Link
+            className="listItem"
             to="works"
+            spy={true}
+            smooth={true}
+            activeClass="active"
+            offset={-100}
+            duration={500}
+            onClick={() => setShowMenu(!showMenu)}
+          >
+            Skills
+          </Link>
+          <Link
+            to="portfolio"
             className="listItem"
             spy={true}
             smooth={true}
@@ -105,18 +115,7 @@ const Navbar = () => {
           >
             Portfolio
           </Link>
-          <Link
-            to="clients"
-            className="listItem"
-            spy={true}
-            smooth={true}
-            activeClass="active"
-            offset={-200}
-            duration={500}
-            onClick={() => setShowMenu(!showMenu)}
-          >
-            Clients
-          </Link>
+          
           <Link
             to="contact"
             className="listItem"

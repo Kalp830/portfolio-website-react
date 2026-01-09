@@ -3,6 +3,8 @@ import './portfolio.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import LeadCrm from "../../assets/images/portfolio/lead-crm.jpg";
 import PixelProtect from "../../assets/images/portfolio/pixel2-protect.jpg";
+import AstraKart from "../../assets/images/portfolio/astrakart.jpg";
+import Nexcent from "../../assets/images/portfolio/nexcent.jpg";
 
 const portfolioData = [
     {
@@ -18,16 +20,16 @@ const portfolioData = [
       link:'https://kalp830.github.io/pixel2-prospect/'
     },
     {
-      image: LeadCrm,
-      title:'Lead Crm Website',
-      subtitle:'Professional Lead Management System',
-      link:'https://leadcrmwebsite.netlify.app/'
+      image: AstraKart,
+      title:'Interior Design Website',
+      subtitle:'Interior Design and Bespoke Furniture Solutions',
+      link:'https://www.astrakatdesigns.com/'
     },
     {
-      image: LeadCrm,
-      title:'Lead Crm Website',
-      subtitle:'Professional Lead Management System',
-      link:'https://leadcrmwebsite.netlify.app/'
+      image: Nexcent,
+      title:'Nexcent Website',
+      subtitle:'React Demo site for business',
+      link:'https://kalp830.github.io/react-landing-page/'
     },
     {
       image: LeadCrm,

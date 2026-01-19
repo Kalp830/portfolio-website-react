@@ -48,12 +48,34 @@
 .skills-section {
   padding: 80px 0;
 }
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
 
 .skills-card {
   background: #2a2d63;
   border-radius: 20px;
   padding: 40px;
   height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.skills-card::before{
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #00d5ff, #ff00ee, #00d5ff);
+    background-size: 200% auto;
+    animation: gradient-shift 3s linear infinite;
+
 }
 .skills-card:hover {
   background: transparent;

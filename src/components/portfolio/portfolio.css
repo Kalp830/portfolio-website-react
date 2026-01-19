@@ -31,16 +31,43 @@
   object-fit: cover;
   width: 100%;
 }
-.link-btn {
+/* .link-btn {
      background-color: #4db5ff;
      padding: 1rem;
      border-radius: 5px;
       text-decoration: none;
      color: #fff;
+} */
+@keyframes gradient-shift {
+     0% {
+       background-position: 0% 50%;
+     }
+     100% {
+       background-position: 200% 50%;
+     }
+   }
+   
+   .link-btn {
+     display: inline-block;
+     padding: 1rem 1.5rem;
+     border-radius: 5px;
+     text-decoration: none;
+     color: #fff;
+     font-weight: 500;
+     background: linear-gradient(
+     90deg,
+    #00d5ff,
+    #ff00ee,
+    #00d5ff
+  );
+  background-size: 200% auto;
+  animation: gradient-shift 8s linear infinite;
 }
+   
 .portlink-btn{
   margin: 2rem 0 1rem 0;
   text-align: start;
+  
 }
 .link-btn:hover {
      background: #fff;

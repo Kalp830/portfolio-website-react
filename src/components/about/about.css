@@ -60,12 +60,14 @@
     place-items:inherit;
     width: 100%;
 }
+
 .about_me-image{
-  border: 3px solid #4db5ff;
+    border: 3px solid #4db5ff;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: all 400ms ease;
+
 }
 
 .about_me-image:hover {

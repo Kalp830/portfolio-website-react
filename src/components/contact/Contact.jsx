@@ -1,69 +1,51 @@
 import React, { useRef } from "react";
 import "./contact.css";
-import WalMart from "../../assets/images/walmart.png";
-import Adobe from "../../assets/images/adobe.png";
-import Microsoft from "../../assets/images/microsoft.png";
-import Facebook from "../../assets/images/facebook.png";
-import FacebookIcon from "../../assets/images/facebook-icon.png";
-import TwitterIcon from "../../assets/images/twitter.png";
-import YouTubeIcon from "../../assets/images/youtube.png";
-import InstaIcon from "../../assets/images/instagram.png";
-import emailjs from "@emailjs/browser";
+import { Container, Row, Col } from 'react-bootstrap';
+import { Envelope, Whatsapp } from "react-bootstrap-icons";
 
 const Contact = () => {
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", "#myForm").then(
-      (response) => {
-        console.log("SUCCESS!", response.status, response.text);
-      },
-      (error) => {
-        console.log("FAILED...", error);
-      }
-    );
-  };
   return (
-    <section className="contactPage">
-      <div className="clients">
-        <h6>My contact</h6>
-        <h2 className="contactPageTitle">My Contact</h2>
-        <p className="clientDes">
-          I had the opportunity to work with a diverse group of companies. Some
-          of the notable compamies I have worked with includes.
-        </p>
-        <div className="clientImgs">
-          <img src={WalMart} alt="walmart" className="clientImg" />
-          <img src={Adobe} alt="adobe" className="clientImg" />
-          <img src={Microsoft} alt="microsoft" className="clientImg" />
-          <img src={Facebook} alt="facebook" className="clientImg" />
-        </div>
+    <section className="contact">
+      <div className="clients contactPage">
+        <h6>Get in Touch</h6>
+        <h2 className="contactPageTitle">Contact Me</h2>
+        <Container>
+            <Row>
+              <Col lg={4} md={4} className="offset-lg-2 offset-md-2 offset-sm-0" >
+              <div className="contact-info">
+                 <Envelope size="30" className="mb-2"/>
+                 <h5>Email</h5>
+                 <h6>talekar.kt@gmail.com</h6>
+                 <a className="link-opacity-75-hover" href="mailto:talekar.kt@gmail.com"  target="blank">Send a message</a>
+              </div>
+              </Col>
+              <Col lg={4} md={4}>
+              <div className="contact-info">
+                 <Whatsapp size="30" className="mb-2"/>
+                 <h5>WhatsApp</h5>
+                 <h6>+91 9723709962</h6>
+                 <a href="https://api.whatsapp.com/send?phone=919723709962" target="_blank">Chat on WhatsApp</a>
+
+              </div>
+              </Col>
+             
+            </Row>
+        </Container>
+       
       </div>
-      <div className="contact">
+      {/* <div className="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
         <span className="contactDes">
           Please fill out the form below to discuss any work opportunities
         </span>
-        <form className="contactForm" ref={form}>
-          <input type="text" className="name" placeholder="Your Name" />
-          <input type="email" className="email" placeholder="Your Email" />
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Your Message"
-            className="msg"
-          ></textarea>
-          <button type="submit" value="send" className="submitBtn">
-            Submit
-          </button>
-          <div className="links">
+       
+         <div className="links">
             <img src={FacebookIcon} alt="Facebook" className="link" />
             <img src={TwitterIcon} alt="Twitter" className="link" />
             <img src={YouTubeIcon} alt="Youtube" className="link" />
             <img src={InstaIcon} alt="Instagram" className="link" />
           </div>
-        </form>
-      </div>
+      </div> */}
     </section>
   );
 };

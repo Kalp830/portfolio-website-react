@@ -71,6 +71,10 @@
     font-size: 4.5rem;
   }
 }
+.downloadBtn a{
+  font-size: 1rem;
+}
 .downloadBtn a:hover{
  background: #4db5ff;
+ border-color: #0d6efd;
 }

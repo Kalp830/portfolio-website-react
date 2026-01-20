@@ -31,13 +31,7 @@
   object-fit: cover;
   width: 100%;
 }
-/* .link-btn {
-     background-color: #4db5ff;
-     padding: 1rem;
-     border-radius: 5px;
-      text-decoration: none;
-     color: #fff;
-} */
+
 @keyframes gradient-shift {
      0% {
        background-position: 0% 50%;

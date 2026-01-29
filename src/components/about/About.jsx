@@ -21,7 +21,7 @@ const About = () => {
            </div>
            </div>
             </Col>
-            <Col lg={7}>
+            <Col lg={7} className="mt-sm-5">
             <div className="skillDes text-start">
        <p> As a UI UX and Frontend Developer, I have extensive experience in
 creating modern web applications and user interfaces. My expertise

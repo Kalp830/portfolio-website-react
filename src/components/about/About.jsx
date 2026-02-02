@@ -12,7 +12,7 @@ const About = () => {
        
         <Container>
           <Row>
-            <Col lg={5}>
+            <Col lg={5} className="d-flex justify-content-center">
           <div className="img-container">
             <div className="about_me">
                <div className="about_me-image">

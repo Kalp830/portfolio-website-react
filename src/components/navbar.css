@@ -16,14 +16,22 @@
   height: 3rem;
   width: 4rem;
 }
+/* Desktop menu */
+.deskTopMenu {
+  display: flex;
+}
 .deskTopMenuItemList {
   margin: 1rem;
   cursor: pointer;
+  color: #fff;
+}
+a.deskTopMenuItemList {
+  text-decoration: none;
 }
 .deskTopMenuItemList:hover {
-  color: yellow;
+  color: #4db5ff;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid #4db5ff;
 }
 .desTopMenuButton {
   background: white;
@@ -42,8 +50,8 @@
   margin: 1rem;
 }
 .active {
-  color: yellow;
-  border-bottom: 3px solid yellow;
+  color: #4db5ff;
+  border-bottom: 3px solid #4db5ff;
   padding-bottom: 0.5rem;
 }
 

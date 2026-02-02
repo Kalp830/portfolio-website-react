@@ -24,6 +24,15 @@
   max-width: 50rem;
   color: #fff9;
 }
+
+@media(max-width: 576px){
+  .skillDes{
+    margin-top: 2rem;
+  }
+  #works{
+    margin: 3rem auto;
+  }
+}
 .skillBars {
   
   text-align: left;
@@ -47,13 +56,15 @@
   font-weight: 200;
 }
 .img-container{
-    width: 84%;
+    width: auto;
     display: grid;
     grid-template-columns: 88% 0%;
 }
 @media (max-width: 680px){
   .img-container{ 
-     width: auto;
+     width: 80%;
+     display: flex;
+     justify-content: center;
     }
 }
 

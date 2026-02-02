@@ -8,9 +8,8 @@ const Navbar = () => {
   return (
     <>
     
-      <nav className="navbar">
-        <div className="container justify-content-center">
-        
+      <nav className="navbar position-fixed w-100 justify-content-center d-flex">
+        <div className="container">
         <div className="deskTopMenu ">
           <Link
             to="intro"

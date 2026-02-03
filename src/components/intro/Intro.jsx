@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <>
       <section id="intro">
-        <div className="container">
+        <div className="container justify-content-center">
           <div className="row">
              <div className="col-md-12">
         <div className="introContent">

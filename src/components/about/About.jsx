@@ -31,7 +31,7 @@ and visually appealing designs. </p>
 and a commitment to quality, I thrive in collaborative environments and am
                   driven to produce innovative solutions that enhance user experiences.</p>
                 <p>I am committed to continuous learning and strive to become a top-tier developer in the tech industry.</p>
-                <button className="btn btn-md bg-primary text-white">Let's Talk</button>
+                {/* <button className="btn btn-md bg-primary text-white">Let's Talk</button> */}
         </div>
         
             </Col>

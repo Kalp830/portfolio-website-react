@@ -8,8 +8,7 @@ const Navbar = () => {
   return (
     <>
     
-      <nav className="navbar position-fixed w-100 justify-content-center d-flex">
-        <div className="container">
+      <nav className="navbar w-100 justify-content-center">
         <div className="deskTopMenu ">
           <Link
             to="intro"
@@ -56,12 +55,12 @@ const Navbar = () => {
             Portfolio
           </Link>
         </div>
-               <img
+               {/* <img
           className="mobMenu"
           src={menu}
           alt="menu"
           onClick={() => setShowMenu(!showMenu)}
-        />
+        /> */}
         <div
           className="navMenu"
           style={{ display: showMenu ? "flex" : "none" }}
@@ -128,7 +127,7 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        </div>
+        
       </nav>
     </>
   );

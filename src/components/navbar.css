@@ -1,15 +1,15 @@
 .navbar {
   height: 5rem;
-  /* width: 100vw; */
+  width: 100%;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed !important;
   top: 0;
   z-index: 3;
-  background: rgba(30, 30, 30, 0.75);
+  background: rgba(77, 181, 255, 0.55);
 }
 .logo {
   object-fit: cover;
@@ -17,9 +17,7 @@
   width: 4rem;
 }
 /* Desktop menu */
-.deskTopMenu {
-  display: flex;
-}
+
 .deskTopMenuItemList {
   margin: 1rem;
   cursor: pointer;
@@ -29,9 +27,9 @@ a.deskTopMenuItemList {
   text-decoration: none;
 }
 .deskTopMenuItemList:hover {
-  color: #4db5ff;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid #4db5ff;
+  color: #fff;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid #fff;
 }
 .desTopMenuButton {
   background: white;
@@ -50,8 +48,8 @@ a.deskTopMenuItemList {
   margin: 1rem;
 }
 .active {
-  color: #4db5ff;
-  border-bottom: 3px solid #4db5ff;
+  color: #fff;
+  border-bottom: 3px solid #fff;
   padding-bottom: 0.5rem;
 }
 

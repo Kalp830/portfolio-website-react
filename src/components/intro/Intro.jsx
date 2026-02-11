@@ -1,8 +1,7 @@
 import React from "react";
 import "./intro.css";
-import ProfileImg from '../../assets/images/kalpesh.png';
-import Pdf from '../../assets/doc/kalpesh-CV.pdf';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import { Behance, CheckCircleFill, Linkedin } from "react-bootstrap-icons";
 
 const Intro = () => {
   return (
@@ -23,23 +22,18 @@ const Intro = () => {
                   </p>
                 </div>
 
-                
                    <div className="downloadBtn">
                     <Row className="justify-content-center g-2">
                    <Col xs="auto">
-                   <a href={Pdf} download className="btn btn-lg btn-outline-secondary">Download CV</a>
+                   <a href="https://www.linkedin.com/in/kalpesh-talekar-05533794/" target="_blank" className="btn btn-lg btn-primary"> <Linkedin size={22}/> | Linkedin</a>
                    </Col>
                    <Col xs="auto">
-                   <a href="https://www.linkedin.com/in/kalpesh-talekar-05533794/" target="_blank" className="btn btn-lg btn-outline-secondary">Linkedin Profile</a>
-                   </Col>
-                   <Col xs="auto">
-                   <a href="https://www.behance.net/kalpesh2283" target="_blank" className="btn btn-lg btn-outline-secondary">Behance Profile</a>
+                   <a href="https://www.behance.net/kalpesh2283" target="_blank" className="btn btn-lg btn-primary"> <Behance size={22}/> | Behance</a>
                    </Col>
                    </Row>
                    </div>
                
-              </div>
-              
+              </div>   
         </div>
        
         </div>
